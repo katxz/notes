@@ -66,5 +66,6 @@
 
 ## Looting
 
+* [passwd / shadow](looting/passwd-shadow.md)
 * [SAM / SYSTEM / SECURITY](looting/sam-system-security.md)
 
