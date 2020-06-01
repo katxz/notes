@@ -25,7 +25,9 @@
 * [Authenticated RCE](kits/authenticated-rce/README.md)
   * [psexec](kits/authenticated-rce/psexec.md)
   * [WinRM](kits/authenticated-rce/winrm.md)
-* [Reverse Shell](kits/reverse-shell.md)
+* [Reverse Shell](kits/reverse-shell/README.md)
+  * [Powershell](kits/reverse-shell/powershell.md)
+  * [IIS / ASP](kits/reverse-shell/iis-asp.md)
 
 ## Collections
 
@@ -55,9 +57,14 @@
 
 ## Privilege Escalation
 
+* [Manual Privesc Cheat Sheets](privilege-escalation/manual-privesc-cheat-sheets.md)
 * [History Files](privilege-escalation/history-files.md)
 
 ## Code Snippets
 
 * [Python](code-snippets/python.md)
+
+## Looting
+
+* [SAM / SYSTEM / SECURITY](looting/sam-system-security.md)
 
