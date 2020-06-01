@@ -21,7 +21,7 @@
 
 ## Collections
 
-* [Wordlists](wordlists.md)
+* [Wordlists](collections/wordlists.md)
 
 ## Ports
 
