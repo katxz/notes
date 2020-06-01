@@ -54,13 +54,13 @@ UDP scan is unreliable and slow but should be included for a thorough enumeratio
 
 {% code title="Script scan and service/version detection on specified ports." %}
 ```text
-$ nmap -p21,22,80 -sC -sV $TARGET
+nmap -p21,22,80 -sC -sV $TARGET
 ```
 {% endcode %}
 
 {% code title="Script scan known vulnerabilities on specified ports." %}
 ```text
-$ nmap -p21,22,80 --script vuln $TARGET
+nmap -p21,22,80 --script vuln $TARGET
 ```
 {% endcode %}
 

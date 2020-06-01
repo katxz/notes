@@ -2,8 +2,9 @@
 
 ## Kali Wordlists
 
-{% code title="$ ls -l /usr/share/wordlists" %}
 ```bash
+$ ls -l /usr/share/wordlists
+
 dirb -> /usr/share/dirb/wordlists
 dirbuster -> /usr/share/dirbuster/wordlists
 fasttrack.txt -> /usr/share/set/src/fasttrack/wordlist.txt
@@ -13,7 +14,6 @@ nmap.lst -> /usr/share/nmap/nselib/data/passwords.lst
 rockyou.txt.gz
 wfuzz -> /usr/share/wfuzz/wordlist
 ```
-{% endcode %}
 
 ## SecLists
 
@@ -23,8 +23,9 @@ wfuzz -> /usr/share/wfuzz/wordlist
 sudo apt install seclists
 ```
 
-{% code title="$ ls -1 /usr/share/seclists" %}
 ```bash
+$ ls -1 /usr/share/seclists
+
 Discovery/
 Fuzzing/
 IOCs/
@@ -36,5 +37,4 @@ README.md
 Usernames/
 Web-Shells/
 ```
-{% endcode %}
 

@@ -10,8 +10,15 @@ sp_configure;
 EXEC sp_configure 'xp_cmdshell', 1
 reconfigure;
 
-xp_cmdshell "whoami" 
+xp_cmdshell "whoami"
 ```
+
+{% hint style="info" %}
+Compare the following syntax \(note the `;)`
+
+* `EXEC xp_cmdshell "whoami";`
+* `xp_cmdshell "whoami"`
+{% endhint %}
 
 
 

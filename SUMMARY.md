@@ -16,8 +16,16 @@
 * [Nmap](tools/nmap/README.md)
   * [NSE](tools/nmap/nse.md)
   * [XML to HTML](tools/nmap/xml-to-html.md)
+* [psexec.py \(Impacket\)](tools/psexec.py-impacket.md)
 * [smbclient](tools/smbclient.md)
 * [ufw](tools/ufw.md)
+
+## Kits
+
+* [Authenticated RCE](kits/authenticated-rce/README.md)
+  * [psexec](kits/authenticated-rce/psexec.md)
+  * [WinRM](kits/authenticated-rce/winrm.md)
+* [Reverse Shell](kits/reverse-shell.md)
 
 ## Collections
 
@@ -44,6 +52,10 @@
 * [Tools](exploitation/tools.md)
 * [Buffer Overflow](exploitation/buffer-overflow.md)
 * [Reversing](exploitation/reversing.md)
+
+## Privilege Escalation
+
+* [History Files](privilege-escalation/history-files.md)
 
 ## Code Snippets
 
