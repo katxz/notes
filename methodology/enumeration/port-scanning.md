@@ -4,7 +4,26 @@
 
 {% page-ref page="../../tools/nmap/" %}
 
+## Current Process
 
+```text
+sudo autorecon $TARGET
+sudo nmap -sU -Pn --top-ports 2000 $TARGET --open
+```
+
+{% hint style="info" %}
+When `autorecon` results seems inconsistent to observed behaviour with Nmap / manual enumeration, re-run it, could be caused by a transient error.
+{% endhint %}
+
+## UDP Port Scanning
+
+{% hint style="info" %}
+The result of UDP scans can be quite unreliable. Make sure to do the top ports a few times to confirm the findings.
+{% endhint %}
+
+{% hint style="info" %}
+Given the open\|filtered UDP ports some poking as well. They may still be valuable targets.
+{% endhint %}
 
 ## Privileged Scans
 

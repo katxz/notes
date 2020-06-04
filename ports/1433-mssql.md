@@ -1,5 +1,7 @@
 # 1433 - MSSQL
 
+{% page-ref page="../tools/mssqlclient.py-impacket.md" %}
+
 ```sql
 SELECT IS_SRVROLEMEMBER('sysadmin');
 

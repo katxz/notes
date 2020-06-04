@@ -52,6 +52,14 @@ sudo nmap -sU -Pn --top-ports 200 $TARGET --open
 UDP scan is unreliable and slow but should be included for a thorough enumeration.
 {% endhint %}
 
+{% hint style="info" %}
+The result of UDP scans can be quite unreliable. Make sure to do the top ports a few times to confirm the findings.
+{% endhint %}
+
+{% hint style="info" %}
+Given the open\|filtered UDP ports some poking as well. They may still be valuable targets.
+{% endhint %}
+
 {% code title="Script scan and service/version detection on specified ports." %}
 ```text
 nmap -p21,22,80 -sC -sV $TARGET
