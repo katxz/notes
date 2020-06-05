@@ -1,5 +1,20 @@
 # SAM / SYSTEM / SECURITY
 
+The Windows passwords are stored encrypted in the SAM file \(`C:Windows\System32\config\`\). The SYSTEM file located in the same folder contains the bootkey to decrypt it.
+
+These two files are locked by the kernel when the operating system is up, so to access the passwords, we'll need to:
+
+* mount the disk when the system is down
+* use tools to dump the hashes in memory
+
+There are also twin files backed up for recovery at `C:\Windows\Repair`. 
+
+## Method 1: exfil from C:\Windows\Repair
+
+... and use secretsdump.py \(see below\).
+
+## Method 2: dump hashes in memory
+
 ```text
 reg save hklm\sam sam.save
 reg save hklm\security security.save

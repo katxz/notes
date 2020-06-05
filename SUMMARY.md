@@ -13,11 +13,13 @@
 * [Tools Listing](tools/tools-listing.md)
 * [Metasploit](tools/metasploit.md)
 * [mssqlclient.py \(Impacket\)](tools/mssqlclient.py-impacket.md)
+* [Autorecon](tools/autorecon.md)
 * [Nmap](tools/nmap/README.md)
   * [NSE](tools/nmap/nse.md)
   * [XML to HTML](tools/nmap/xml-to-html.md)
 * [psexec.py \(Impacket\)](tools/psexec.py-impacket.md)
 * [smbclient](tools/smbclient.md)
+* [SShuttle](tools/sshuttle.md)
 * [ufw](tools/ufw.md)
 
 ## Kits
@@ -26,7 +28,7 @@
   * [psexec](kits/authenticated-rce/psexec.md)
   * [WinRM](kits/authenticated-rce/winrm.md)
 * [Reverse Shell](kits/reverse-shell/README.md)
-  * [Powershell](kits/reverse-shell/powershell.md)
+  * [Powershell](kits/reverse-shell/shell-powershell.md)
   * [IIS / ASP](kits/reverse-shell/iis-asp.md)
 
 ## Collections
@@ -47,6 +49,10 @@
 * [3389 - RDP](ports/3389-rdp.md)
 * [U:69 - TFTP](ports/u-69-tftp.md)
 
+## Port Redirection and Tunneling
+
+* [Tools](port-redirection-and-tunneling/tools.md)
+
 ## Web Attacks
 
 ## Exploitation
@@ -66,6 +72,7 @@
 
 ## Looting
 
+* [Password Cracking](looting/password-cracking.md)
 * [passwd / shadow](looting/passwd-shadow.md)
 * [SAM / SYSTEM / SECURITY](looting/sam-system-security.md)
 

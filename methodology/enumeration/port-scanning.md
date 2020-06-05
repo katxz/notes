@@ -22,7 +22,7 @@ The result of UDP scans can be quite unreliable. Make sure to do the top ports a
 {% endhint %}
 
 {% hint style="info" %}
-Given the open\|filtered UDP ports some poking as well. They may still be valuable targets.
+Given the open\|filtered UDP ports some poking as well. They may still be valuable targets. \(Unless all the ports return open\|filtered then probably not worth the time unless there really isn't any other way in\).
 {% endhint %}
 
 ## Privileged Scans
