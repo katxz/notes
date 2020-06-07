@@ -27,6 +27,7 @@
 
 ## Kits
 
+* [File Transfer](kits/file-transfer.md)
 * [Authenticated RCE](kits/authenticated-rce/README.md)
   * [psexec](kits/authenticated-rce/psexec.md)
   * [WinRM](kits/authenticated-rce/winrm.md)
@@ -34,6 +35,7 @@
   * [Powershell](kits/reverse-shell/shell-powershell.md)
   * [IIS / ASP](kits/reverse-shell/iis-asp.md)
   * [Perl / CGI](kits/reverse-shell/perl-cgi.md)
+  * [JSP](kits/reverse-shell/jsp.md)
 
 ## Collections
 
@@ -87,4 +89,9 @@
 * [Password Cracking](looting/password-cracking.md)
 * [passwd / shadow](looting/passwd-shadow.md)
 * [SAM / SYSTEM / SECURITY](looting/sam-system-security.md)
+* [mimikatz.exe](looting/mimikatz.exe.md)
+
+## Persistence
+
+* [New User](persistence/new-user.md)
 
