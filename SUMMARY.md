@@ -30,6 +30,7 @@
 * [Reverse Shell](kits/reverse-shell/README.md)
   * [Powershell](kits/reverse-shell/shell-powershell.md)
   * [IIS / ASP](kits/reverse-shell/iis-asp.md)
+  * [Perl / CGI](kits/reverse-shell/perl-cgi.md)
 
 ## Collections
 
@@ -38,9 +39,12 @@
 ## Ports
 
 * [21 - FTP](ports/21-ftp.md)
-* [22 - SSH](ports/22-ssh.md)
+* [22 - SSH](ports/22-ssh/README.md)
+  * [Debian OpenSSL Predictable PRNG \(CVE-2008-0166\)](ports/22-ssh/debian-openssl-predictable-prng-cve-2008-0166.md)
+* [25 - SMTP](ports/25-smtp.md)
 * [53 - DNS](ports/53-dns.md)
 * [80 \| 443 - HTTP\(S\)](ports/80-or-443-http-s.md)
+* [113 - ident](ports/113-ident.md)
 * [139 \| 445 - SMB](ports/139-or-445-smb.md)
 * [222 - rsh](ports/222-rsh.md)
 * [1433 - MSSQL](ports/1433-mssql.md)
@@ -65,6 +69,7 @@
 
 * [Manual Privesc Cheat Sheets](privilege-escalation/manual-privesc-cheat-sheets.md)
 * [History Files](privilege-escalation/history-files.md)
+* [Uncommon SUID Files](privilege-escalation/uncommon-suid-files.md)
 
 ## Code Snippets
 
