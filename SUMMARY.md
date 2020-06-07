@@ -11,12 +11,15 @@
 ## Tools
 
 * [Tools Listing](tools/tools-listing.md)
-* [Metasploit](tools/metasploit.md)
-* [mssqlclient.py \(Impacket\)](tools/mssqlclient.py-impacket.md)
+* [Brute Force Cheat Sheet](tools/brute-force-cheat-sheet.md)
 * [Autorecon](tools/autorecon.md)
+* [Metasploit](tools/metasploit/README.md)
+  * [admin/oracle/oracle\_login](tools/metasploit/admin-oracle-oracle_login.md)
+* [mssqlclient.py \(Impacket\)](tools/mssqlclient.py-impacket.md)
 * [Nmap](tools/nmap/README.md)
   * [NSE](tools/nmap/nse.md)
   * [XML to HTML](tools/nmap/xml-to-html.md)
+* [odat](tools/odat.md)
 * [psexec.py \(Impacket\)](tools/psexec.py-impacket.md)
 * [smbclient](tools/smbclient.md)
 * [SShuttle](tools/sshuttle.md)
@@ -48,6 +51,7 @@
 * [139 \| 445 - SMB](ports/139-or-445-smb.md)
 * [222 - rsh](ports/222-rsh.md)
 * [1433 - MSSQL](ports/1433-mssql.md)
+* [1521 - Oracle](ports/1521-oracle.md)
 * [2049 - NFS](ports/2049-nfs.md)
 * [3306 - MySQL / MariaDB](ports/3306-mysql-mariadb.md)
 * [3389 - RDP](ports/3389-rdp.md)
@@ -58,6 +62,9 @@
 * [Tools](port-redirection-and-tunneling/tools.md)
 
 ## Web Attacks
+
+* [NoSQL Injection](web-attacks/nosql-injection.md)
+* [WebDav](web-attacks/webdav.md)
 
 ## Exploitation
 
