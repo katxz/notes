@@ -93,5 +93,5 @@
 
 ## Persistence
 
-* [New User](persistence/new-user.md)
+* [Add New Admin User](persistence/new-user.md)
 
