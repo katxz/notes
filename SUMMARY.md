@@ -14,6 +14,7 @@
 * [Brute Force Cheat Sheet](tools/brute-force-cheat-sheet.md)
 * [Autorecon](tools/autorecon.md)
 * [Metasploit](tools/metasploit/README.md)
+  * [exploit/multi/handler](tools/metasploit/exploit-multi-handler.md)
   * [admin/oracle/oracle\_login](tools/metasploit/admin-oracle-oracle_login.md)
 * [mssqlclient.py \(Impacket\)](tools/mssqlclient.py-impacket.md)
 * [Nmap](tools/nmap/README.md)
@@ -38,6 +39,7 @@
   * [IIS / ASP](kits/reverse-shell/iis-asp.md)
   * [Perl / CGI](kits/reverse-shell/perl-cgi.md)
   * [JSP](kits/reverse-shell/jsp.md)
+  * [Meterpreter](kits/reverse-shell/meterpreter.md)
 
 ## Collections
 
@@ -59,6 +61,7 @@
 * [2049 - NFS](ports/2049-nfs.md)
 * [3306 - MySQL / MariaDB](ports/3306-mysql-mariadb.md)
 * [3389 - RDP](ports/3389-rdp.md)
+* [5985 \| 5986 - WINRM](ports/5985-or-5986-winrm.md)
 * [U:69 - TFTP](ports/u-69-tftp.md)
 
 ## Port Redirection and Tunneling
@@ -80,7 +83,10 @@
 
 * [Manual Privesc Cheat Sheets](privilege-escalation/manual-privesc-cheat-sheets.md)
 * [History Files](privilege-escalation/history-files.md)
-* [Uncommon SUID Files](privilege-escalation/uncommon-suid-files.md)
+* [Windows Privilege Escalation](privilege-escalation/windows-privilege-escalation/README.md)
+  * [Unquoted Service Paths](privilege-escalation/windows-privilege-escalation/unquoted-service-paths.md)
+* [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
+  * [Uncommon SUID Files](privilege-escalation/linux-privilege-escalation/uncommon-suid-files.md)
 
 ## Code Snippets
 
