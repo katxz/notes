@@ -33,6 +33,7 @@
   * [psexec](kits/authenticated-rce/psexec.md)
   * [WinRM](kits/authenticated-rce/winrm.md)
 * [Reverse Shell](kits/reverse-shell/README.md)
+  * [Reverse Shell Cheat Sheets](kits/reverse-shell/reverse-shell-cheat-sheets.md)
   * [Upgrade Shell](kits/reverse-shell/upgrade-shell.md)
   * [Powershell](kits/reverse-shell/shell-powershell.md)
   * [PHP](kits/reverse-shell/php.md)
