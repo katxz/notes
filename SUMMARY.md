@@ -28,6 +28,7 @@
 
 ## Kits
 
+* [Useful Windows Commands](kits/useful-windows-commands.md)
 * [File Transfer](kits/file-transfer.md)
 * [Authenticated RCE](kits/authenticated-rce/README.md)
   * [psexec](kits/authenticated-rce/psexec.md)
