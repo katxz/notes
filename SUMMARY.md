@@ -28,11 +28,11 @@
 
 ## Kits
 
-* [Useful Windows Commands](kits/useful-windows-commands.md)
-* [File Transfer](kits/file-transfer.md)
 * [Authenticated RCE](kits/authenticated-rce/README.md)
   * [psexec](kits/authenticated-rce/psexec.md)
   * [WinRM](kits/authenticated-rce/winrm.md)
+* [File Transfer](kits/file-transfer.md)
+* [Path Traversal Lists](kits/path-traversal-lists.md)
 * [Reverse Shell](kits/reverse-shell/README.md)
   * [Reverse Shell Cheat Sheets](kits/reverse-shell/reverse-shell-cheat-sheets.md)
   * [Upgrade Shell](kits/reverse-shell/upgrade-shell.md)
@@ -42,6 +42,7 @@
   * [Perl / CGI](kits/reverse-shell/perl-cgi.md)
   * [JSP](kits/reverse-shell/jsp.md)
   * [Meterpreter](kits/reverse-shell/meterpreter.md)
+* [Useful Windows Commands](kits/useful-windows-commands.md)
 
 ## Collections
 
