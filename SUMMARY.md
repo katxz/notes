@@ -41,6 +41,7 @@
   * [IIS / ASP](kits/reverse-shell/iis-asp.md)
   * [Perl / CGI](kits/reverse-shell/perl-cgi.md)
   * [JSP](kits/reverse-shell/jsp.md)
+  * [Python](kits/reverse-shell/python.md)
   * [Meterpreter](kits/reverse-shell/meterpreter.md)
 * [Useful Windows Commands](kits/useful-windows-commands.md)
 
@@ -90,6 +91,7 @@
   * [Unquoted Service Paths](privilege-escalation/windows-privilege-escalation/unquoted-service-paths.md)
 * [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
   * [Uncommon SUID Files](privilege-escalation/linux-privilege-escalation/uncommon-suid-files.md)
+  * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
 ## Code Snippets
 
