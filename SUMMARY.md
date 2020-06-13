@@ -89,6 +89,7 @@
 * [History Files](privilege-escalation/history-files.md)
 * [Windows Privilege Escalation](privilege-escalation/windows-privilege-escalation/README.md)
   * [Unquoted Service Paths](privilege-escalation/windows-privilege-escalation/unquoted-service-paths.md)
+  * [JuicyPotato](privilege-escalation/windows-privilege-escalation/juicypotato.md)
 * [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
   * [Uncommon SUID Files](privilege-escalation/linux-privilege-escalation/uncommon-suid-files.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
