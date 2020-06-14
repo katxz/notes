@@ -13,6 +13,7 @@
 * [Tools Listing](tools/tools-listing.md)
 * [Brute Force Cheat Sheet](tools/brute-force-cheat-sheet.md)
 * [Autorecon](tools/autorecon.md)
+* [Burp](tools/burp.md)
 * [Metasploit](tools/metasploit/README.md)
   * [exploit/multi/handler](tools/metasploit/exploit-multi-handler.md)
   * [admin/oracle/oracle\_login](tools/metasploit/admin-oracle-oracle_login.md)
@@ -23,7 +24,7 @@
 * [odat](tools/odat.md)
 * [psexec.py \(Impacket\)](tools/psexec.py-impacket.md)
 * [smbclient](tools/smbclient.md)
-* [SShuttle](tools/sshuttle.md)
+* [sshuttle](tools/sshuttle.md)
 * [ufw](tools/ufw.md)
 
 ## Kits
