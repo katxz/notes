@@ -102,7 +102,7 @@
 
 * [Python](code-snippets/python.md)
 
-## Looting
+## Post Exploitation <a id="looting"></a>
 
 * [Password Cracking](looting/password-cracking.md)
 * [passwd / shadow](looting/passwd-shadow.md)
