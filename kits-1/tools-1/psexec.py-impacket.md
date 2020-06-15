@@ -4,8 +4,6 @@ Source code: [https://github.com/SecureAuthCorp/impacket/blob/master/examples/ps
 
 For how it works under the hood, see:
 
-{% page-ref page="../kits/authenticated-rce/psexec.md" %}
-
 ## Usage
 
 ```text

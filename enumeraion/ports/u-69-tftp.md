@@ -55,7 +55,7 @@ A good wordlist for TFTP enumeration may come from LFI / path traversal lists.
 
 #### Notation 8.3
 
-![Windows XP](../.gitbook/assets/image.png)
+![Windows XP](../../.gitbook/assets/image.png)
 
 
 

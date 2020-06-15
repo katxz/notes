@@ -1,4 +1,4 @@
-# Path Traversal Lists
+# Path Traversal
 
 Windows:
 

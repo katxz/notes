@@ -1,4 +1,4 @@
-# Brute Force Cheat Sheet
+# Brute Force
 
 ### HTTP Basic Auth
 

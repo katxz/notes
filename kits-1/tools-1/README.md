@@ -1,4 +1,4 @@
-# Tools Listing
+# Tools
 
 ## Kali Tools Listing
 

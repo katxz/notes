@@ -2,7 +2,7 @@
 
 ## Connect to MSSQL from Kali
 
-{% page-ref page="../tools/mssqlclient.py-impacket.md" %}
+{% page-ref page="../../kits-1/tools-1/mssqlclient.py-impacket.md" %}
 
 ## MSSQL for PrivEsc
 
@@ -28,7 +28,7 @@ Compare the following syntax \(note the `;)`
 * `xp_cmdshell "whoami"`
 {% endhint %}
 
-{% page-ref page="../kits/reverse-shell/shell-powershell.md" %}
+{% page-ref page="../../collections/reverse-shell/shell-powershell.md" %}
 
 ## MSSQL System Databases
 

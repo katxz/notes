@@ -5,80 +5,72 @@
 ## Methodology
 
 * [Overview](methodology/overview.md)
-* [Enumeration](methodology/enumeration/README.md)
-  * [Port Scanning](methodology/enumeration/port-scanning.md)
+* [Kits](kits-1/README.md)
+  * [Code Snippets](kits-1/python.md)
+  * [Tools](kits-1/tools-1/README.md)
+    * [ufw](kits-1/tools-1/ufw.md)
+    * [sshuttle](kits-1/tools-1/sshuttle.md)
+    * [smbclient](kits-1/tools-1/smbclient.md)
+    * [psexec.py \(Impacket\)](kits-1/tools-1/psexec.py-impacket.md)
+    * [odat](kits-1/tools-1/odat.md)
+    * [Nmap](kits-1/tools-1/nmap/README.md)
+      * [NSE](kits-1/tools-1/nmap/nse.md)
+      * [XML to HTML](kits-1/tools-1/nmap/xml-to-html.md)
+    * [mssqlclient.py \(Impacket\)](kits-1/tools-1/mssqlclient.py-impacket.md)
+    * [Metasploit](kits-1/tools-1/metasploit/README.md)
+      * [exploit/multi/handler](kits-1/tools-1/metasploit/exploit-multi-handler.md)
+      * [admin/oracle/oracle\_login](kits-1/tools-1/metasploit/admin-oracle-oracle_login.md)
+    * [Burp](kits-1/tools-1/burp.md)
+    * [Autorecon](kits-1/tools-1/autorecon.md)
+  * [Useful Commands](kits-1/useful-windows-commands/README.md)
+    * [Windows Commands](kits-1/useful-windows-commands/windows-commands.md)
+    * [Linux Commands](kits-1/useful-windows-commands/linux-commands.md)
 
-## Tools
+## Enumeration <a id="enumeraion"></a>
 
-* [Tools Listing](tools/tools-listing.md)
-* [Brute Force Cheat Sheet](tools/brute-force-cheat-sheet.md)
-* [Autorecon](tools/autorecon.md)
-* [Burp](tools/burp.md)
-* [Metasploit](tools/metasploit/README.md)
-  * [exploit/multi/handler](tools/metasploit/exploit-multi-handler.md)
-  * [admin/oracle/oracle\_login](tools/metasploit/admin-oracle-oracle_login.md)
-* [mssqlclient.py \(Impacket\)](tools/mssqlclient.py-impacket.md)
-* [Nmap](tools/nmap/README.md)
-  * [NSE](tools/nmap/nse.md)
-  * [XML to HTML](tools/nmap/xml-to-html.md)
-* [odat](tools/odat.md)
-* [psexec.py \(Impacket\)](tools/psexec.py-impacket.md)
-* [smbclient](tools/smbclient.md)
-* [sshuttle](tools/sshuttle.md)
-* [ufw](tools/ufw.md)
-
-## Kits
-
-* [Authenticated RCE](kits/authenticated-rce/README.md)
-  * [psexec](kits/authenticated-rce/psexec.md)
-  * [WinRM](kits/authenticated-rce/winrm.md)
-* [File Transfer](kits/file-transfer.md)
-* [Path Traversal Lists](kits/path-traversal-lists.md)
-* [Reverse Shell](kits/reverse-shell/README.md)
-  * [Reverse Shell Cheat Sheets](kits/reverse-shell/reverse-shell-cheat-sheets.md)
-  * [Upgrade Shell](kits/reverse-shell/upgrade-shell.md)
-  * [Powershell](kits/reverse-shell/shell-powershell.md)
-  * [PHP](kits/reverse-shell/php.md)
-  * [IIS / ASP](kits/reverse-shell/iis-asp.md)
-  * [Perl / CGI](kits/reverse-shell/perl-cgi.md)
-  * [JSP](kits/reverse-shell/jsp.md)
-  * [Python](kits/reverse-shell/python.md)
-  * [Meterpreter](kits/reverse-shell/meterpreter.md)
-* [Useful Windows Commands](kits/useful-windows-commands.md)
+* [Overview](enumeraion/enumeration/README.md)
+  * [Port Scanning](enumeraion/enumeration/port-scanning.md)
+* [Ports](enumeraion/ports/README.md)
+  * [21 - FTP](enumeraion/ports/21-ftp.md)
+  * [22 - SSH](enumeraion/ports/22-ssh/README.md)
+    * [Debian OpenSSL Predictable PRNG \(CVE-2008-0166\)](enumeraion/ports/22-ssh/debian-openssl-predictable-prng-cve-2008-0166.md)
+  * [25 - SMTP](enumeraion/ports/25-smtp.md)
+  * [53 - DNS](enumeraion/ports/53-dns.md)
+  * [80 \| 443 - HTTP\(S\)](enumeraion/ports/80-or-443-http-s.md)
+  * [113 - ident](enumeraion/ports/113-ident.md)
+  * [139 \| 445 - SMB](enumeraion/ports/139-or-445-smb.md)
+  * [222 - rsh](enumeraion/ports/222-rsh.md)
+  * [1433 - MSSQL](enumeraion/ports/1433-mssql.md)
+  * [1521 - Oracle](enumeraion/ports/1521-oracle.md)
+  * [2049 - NFS](enumeraion/ports/2049-nfs.md)
+  * [3306 - MySQL / MariaDB](enumeraion/ports/3306-mysql-mariadb.md)
+  * [3389 - RDP](enumeraion/ports/3389-rdp.md)
+  * [5985 \| 5986 - WINRM](enumeraion/ports/5985-or-5986-winrm.md)
+  * [U:69 - TFTP](enumeraion/ports/u-69-tftp.md)
+* [Port Redirection / Tunneling](enumeraion/tools.md)
 
 ## Collections
 
+* [Authenticated RCE](collections/authenticated-rce.md)
+* [Brute Force](collections/brute-force-cheat-sheet.md)
+* [File Transfer](collections/file-transfer.md)
+* [Path Traversal](collections/path-traversal-lists.md)
+* [Reverse Shell](collections/reverse-shell/README.md)
+  * [Reverse Shell Cheat Sheets](collections/reverse-shell/reverse-shell-cheat-sheets.md)
+  * [Upgrade Shell](collections/reverse-shell/upgrade-shell.md)
+  * [Powershell](collections/reverse-shell/shell-powershell.md)
+  * [PHP](collections/reverse-shell/php.md)
+  * [IIS / ASP](collections/reverse-shell/iis-asp.md)
+  * [Perl / CGI](collections/reverse-shell/perl-cgi.md)
+  * [JSP](collections/reverse-shell/jsp.md)
+  * [Python](collections/reverse-shell/python.md)
+  * [Meterpreter](collections/reverse-shell/meterpreter.md)
+* [Web Attacks](collections/web-attacks/README.md)
+  * [NoSQL Injection](collections/web-attacks/nosql-injection.md)
+  * [WebDav](collections/web-attacks/webdav.md)
 * [Wordlists](collections/wordlists.md)
 
-## Ports
-
-* [21 - FTP](ports/21-ftp.md)
-* [22 - SSH](ports/22-ssh/README.md)
-  * [Debian OpenSSL Predictable PRNG \(CVE-2008-0166\)](ports/22-ssh/debian-openssl-predictable-prng-cve-2008-0166.md)
-* [25 - SMTP](ports/25-smtp.md)
-* [53 - DNS](ports/53-dns.md)
-* [80 \| 443 - HTTP\(S\)](ports/80-or-443-http-s.md)
-* [113 - ident](ports/113-ident.md)
-* [139 \| 445 - SMB](ports/139-or-445-smb.md)
-* [222 - rsh](ports/222-rsh.md)
-* [1433 - MSSQL](ports/1433-mssql.md)
-* [1521 - Oracle](ports/1521-oracle.md)
-* [2049 - NFS](ports/2049-nfs.md)
-* [3306 - MySQL / MariaDB](ports/3306-mysql-mariadb.md)
-* [3389 - RDP](ports/3389-rdp.md)
-* [5985 \| 5986 - WINRM](ports/5985-or-5986-winrm.md)
-* [U:69 - TFTP](ports/u-69-tftp.md)
-
-## Port Redirection and Tunneling
-
-* [Tools](port-redirection-and-tunneling/tools.md)
-
-## Web Attacks
-
-* [NoSQL Injection](web-attacks/nosql-injection.md)
-* [WebDav](web-attacks/webdav.md)
-
-## Exploitation
+## Exploit Development <a id="exploitation"></a>
 
 * [Tools](exploitation/tools.md)
 * [Buffer Overflow](exploitation/buffer-overflow.md)
@@ -98,18 +90,15 @@
   * [Uncommon SUID Files](privilege-escalation/linux-privilege-escalation/uncommon-suid-files.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
-## Code Snippets
-
-* [Python](code-snippets/python.md)
-
 ## Post Exploitation <a id="looting"></a>
 
-* [Password Cracking](looting/password-cracking.md)
-* [passwd / shadow](looting/passwd-shadow.md)
-* [SAM / SYSTEM / SECURITY](looting/sam-system-security.md)
-* [mimikatz.exe](looting/mimikatz.exe.md)
+* [Persistence](looting/persistence/README.md)
+  * [Add New Admin User](looting/persistence/new-user.md)
+* [Looting](looting/looting/README.md)
+  * [mimikatz.exe](looting/looting/mimikatz.exe.md)
+  * [SAM / SYSTEM / SECURITY](looting/looting/sam-system-security.md)
+  * [passwd / shadow](looting/looting/passwd-shadow.md)
+  * [Password Cracking](looting/looting/password-cracking.md)
 
-## Persistence
-
-* [Add New Admin User](persistence/new-user.md)
+## Kits
 

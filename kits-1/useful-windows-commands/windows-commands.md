@@ -1,4 +1,4 @@
-# Useful Windows Commands
+# Windows Commands
 
 ## icacls \| cacls
 
