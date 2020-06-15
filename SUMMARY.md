@@ -5,31 +5,31 @@
 ## Methodology
 
 * [Overview](methodology/overview.md)
-* [Kits](kits-1/README.md)
-  * [Code Snippets](kits-1/python.md)
-  * [Tools](kits-1/tools-1/README.md)
-    * [ufw](kits-1/tools-1/ufw.md)
-    * [sshuttle](kits-1/tools-1/sshuttle.md)
-    * [smbclient](kits-1/tools-1/smbclient.md)
-    * [psexec.py \(Impacket\)](kits-1/tools-1/psexec.py-impacket.md)
-    * [odat](kits-1/tools-1/odat.md)
-    * [Nmap](kits-1/tools-1/nmap/README.md)
-      * [NSE](kits-1/tools-1/nmap/nse.md)
-      * [XML to HTML](kits-1/tools-1/nmap/xml-to-html.md)
-    * [mssqlclient.py \(Impacket\)](kits-1/tools-1/mssqlclient.py-impacket.md)
-    * [Metasploit](kits-1/tools-1/metasploit/README.md)
-      * [exploit/multi/handler](kits-1/tools-1/metasploit/exploit-multi-handler.md)
-      * [admin/oracle/oracle\_login](kits-1/tools-1/metasploit/admin-oracle-oracle_login.md)
-    * [Burp](kits-1/tools-1/burp.md)
-    * [Autorecon](kits-1/tools-1/autorecon.md)
-  * [Useful Commands](kits-1/useful-windows-commands/README.md)
-    * [Windows Commands](kits-1/useful-windows-commands/windows-commands.md)
-    * [Linux Commands](kits-1/useful-windows-commands/linux-commands.md)
+* [Kits](kits/README.md)
+  * [Code Snippets](kits/code-snippets.md)
+  * [Tools](kits/tools/README.md)
+    * [ufw](kits/tools/ufw.md)
+    * [sshuttle](kits/tools/sshuttle.md)
+    * [smbclient](kits/tools/smbclient.md)
+    * [psexec.py \(Impacket\)](kits/tools/psexec.py-impacket.md)
+    * [odat](kits/tools/odat.md)
+    * [Nmap](kits/tools/nmap/README.md)
+      * [NSE](kits/tools/nmap/nse.md)
+      * [XML to HTML](kits/tools/nmap/xml-to-html.md)
+    * [mssqlclient.py \(Impacket\)](kits/tools/mssqlclient.py-impacket.md)
+    * [Metasploit](kits/tools/metasploit/README.md)
+      * [exploit/multi/handler](kits/tools/metasploit/exploit-multi-handler.md)
+      * [admin/oracle/oracle\_login](kits/tools/metasploit/admin-oracle-oracle_login.md)
+    * [Burp](kits/tools/burp.md)
+    * [Autorecon](kits/tools/autorecon.md)
+  * [Useful Commands](kits/useful-windows-commands/README.md)
+    * [Windows Commands](kits/useful-windows-commands/windows-commands.md)
+    * [Linux Commands](kits/useful-windows-commands/linux-commands.md)
 
 ## Enumeration <a id="enumeraion"></a>
 
-* [Overview](enumeraion/enumeration/README.md)
-  * [Port Scanning](enumeraion/enumeration/port-scanning.md)
+* [Overview](enumeraion/overview/README.md)
+  * [Port Scanning](enumeraion/overview/port-scanning.md)
 * [Ports](enumeraion/ports/README.md)
   * [21 - FTP](enumeraion/ports/21-ftp.md)
   * [22 - SSH](enumeraion/ports/22-ssh/README.md)
@@ -47,18 +47,18 @@
   * [3389 - RDP](enumeraion/ports/3389-rdp.md)
   * [5985 \| 5986 - WINRM](enumeraion/ports/5985-or-5986-winrm.md)
   * [U:69 - TFTP](enumeraion/ports/u-69-tftp.md)
-* [Port Redirection / Tunneling](enumeraion/tools.md)
+* [Port Redirection / Tunneling](enumeraion/port-redirection-tunneling.md)
 
 ## Collections
 
 * [Authenticated RCE](collections/authenticated-rce.md)
-* [Brute Force](collections/brute-force-cheat-sheet.md)
+* [Brute Force](collections/brute-force.md)
 * [File Transfer](collections/file-transfer.md)
-* [Path Traversal](collections/path-traversal-lists.md)
+* [Path Traversal](collections/path-traversal.md)
 * [Reverse Shell](collections/reverse-shell/README.md)
   * [Reverse Shell Cheat Sheets](collections/reverse-shell/reverse-shell-cheat-sheets.md)
   * [Upgrade Shell](collections/reverse-shell/upgrade-shell.md)
-  * [Powershell](collections/reverse-shell/shell-powershell.md)
+  * [Powershell](collections/reverse-shell/powershell.md)
   * [PHP](collections/reverse-shell/php.md)
   * [IIS / ASP](collections/reverse-shell/iis-asp.md)
   * [Perl / CGI](collections/reverse-shell/perl-cgi.md)
@@ -70,15 +70,15 @@
   * [WebDav](collections/web-attacks/webdav.md)
 * [Wordlists](collections/wordlists.md)
 
-## Exploit Development <a id="exploitation"></a>
+## Exploit Development
 
-* [Tools](exploitation/tools.md)
-* [Buffer Overflow](exploitation/buffer-overflow.md)
-* [Reversing](exploitation/reversing.md)
+* [Tools](exploit-development/tools.md)
+* [Buffer Overflow](exploit-development/buffer-overflow.md)
+* [Reversing](exploit-development/reversing.md)
 
 ## Privilege Escalation
 
-* [Manual Privesc Cheat Sheets](privilege-escalation/manual-privesc-cheat-sheets.md)
+* [Manual Privesc](privilege-escalation/manual-privesc.md)
 * [History Files](privilege-escalation/history-files.md)
 * [Windows Privilege Escalation](privilege-escalation/windows-privilege-escalation/README.md)
   * [Scripts](privilege-escalation/windows-privilege-escalation/scripts.md)
@@ -90,15 +90,13 @@
   * [Uncommon SUID Files](privilege-escalation/linux-privilege-escalation/uncommon-suid-files.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
-## Post Exploitation <a id="looting"></a>
+## Post Exploitation
 
-* [Persistence](looting/persistence/README.md)
-  * [Add New Admin User](looting/persistence/new-user.md)
-* [Looting](looting/looting/README.md)
-  * [mimikatz.exe](looting/looting/mimikatz.exe.md)
-  * [SAM / SYSTEM / SECURITY](looting/looting/sam-system-security.md)
-  * [passwd / shadow](looting/looting/passwd-shadow.md)
-  * [Password Cracking](looting/looting/password-cracking.md)
-
-## Kits
+* [Persistence](post-exploitation/persistence/README.md)
+  * [Add New Admin User](post-exploitation/persistence/add-new-admin-user.md)
+* [Looting](post-exploitation/looting/README.md)
+  * [mimikatz.exe](post-exploitation/looting/mimikatz.exe.md)
+  * [SAM / SYSTEM / SECURITY](post-exploitation/looting/sam-system-security.md)
+  * [passwd / shadow](post-exploitation/looting/passwd-shadow.md)
+  * [Password Cracking](post-exploitation/looting/password-cracking.md)
 
