@@ -5,6 +5,9 @@
 ## Methodology
 
 * [Overview](methodology/overview.md)
+
+---
+
 * [Kits](kits/README.md)
   * [Code Snippets](kits/code-snippets.md)
   * [Tools](kits/tools/README.md)
@@ -72,7 +75,7 @@
 
 ## Exploit Development
 
-* [Tools](exploit-development/tools.md)
+* [Tools](exploit-development/exploit-dev-tools.md)
 * [Buffer Overflow](exploit-development/buffer-overflow.md)
 * [Reversing](exploit-development/reversing.md)
 
