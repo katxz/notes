@@ -16,6 +16,7 @@
   * [Linux Useful Utilities](tools/linux-things/linux-useful-utilities.md)
   * [Linux Code Snippets](tools/linux-things/linux-code-snippets.md)
   * [Linux Concepts](tools/linux-things/linux-concepts.md)
+  * [Bash Scripting](tools/linux-things/bash-scripting.md)
 * [Tools](tools/tools/README.md)
   * [Autorecon](tools/tools/autorecon.md)
   * [Burp](tools/tools/burp.md)
