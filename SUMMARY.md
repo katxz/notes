@@ -34,6 +34,7 @@
   * [Socat](tools/tools/socat.md)
   * [sshuttle](tools/tools/sshuttle.md)
   * [ufw](tools/tools/ufw.md)
+  * [Wireshark \| tcpdump](tools/tools/wireshark-or-tcpdump.md)
 
 ## Enumeration <a id="enumeraion"></a>
 
@@ -75,7 +76,7 @@
   * [Python](collections/reverse-shell/python.md)
   * [Meterpreter](collections/reverse-shell/meterpreter.md)
 * [Bind Shell](collections/bind-shell/README.md)
-  * [Powershell](collections/bind-shell/powershell.md)
+  * [Powercat \| Powershell](collections/bind-shell/powershell.md)
 * [Web Attacks](collections/web-attacks/README.md)
   * [NoSQL Injection](collections/web-attacks/nosql-injection.md)
   * [WebDav](collections/web-attacks/webdav.md)

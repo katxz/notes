@@ -23,13 +23,13 @@ Also see:
 
 {% page-ref page="../../collections/file-transfer.md" %}
 
-## Reverse Shell
+## Reverse/Bind Shells
 
-```text
-d
-```
-
-Also see:
+See the following:
 
 {% page-ref page="../../collections/reverse-shell/powershell.md" %}
+
+{% page-ref page="../../collections/bind-shell/powershell.md" %}
+
+
 

