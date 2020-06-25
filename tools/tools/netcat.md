@@ -1,4 +1,15 @@
-# netcat
+# Netcat
+
+```text
+-n numeric IP-address only (skip DNS name resolution)
+-v verbose
+-l listening
+-p port
+-u UDP
+-c, --sh-exec <command> Executes the given command via /bin/sh
+-e, --exec <command> Executes the given command
+-q0 quit after 0 seconds
+```
 
 When you use the `-q0` flag, `netcat` will close the connection as soon it detects the end of your file.
 

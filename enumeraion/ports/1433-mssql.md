@@ -2,7 +2,7 @@
 
 ## Connect to MSSQL from Kali
 
-{% page-ref page="../../kits/tools/mssqlclient.py-impacket.md" %}
+{% page-ref page="../../tools/tools/mssqlclient.py-impacket.md" %}
 
 ## MSSQL for PrivEsc
 

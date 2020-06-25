@@ -2,7 +2,7 @@
 
 ## Tools
 
-{% page-ref page="../../kits/tools/nmap/" %}
+{% page-ref page="../../tools/tools/nmap/" %}
 
 ## Current Process
 

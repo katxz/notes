@@ -1,6 +1,6 @@
 # Port Redirection / Tunneling
 
-{% page-ref page="../kits/tools/sshuttle.md" %}
+{% page-ref page="../tools/tools/sshuttle.md" %}
 
 
 
