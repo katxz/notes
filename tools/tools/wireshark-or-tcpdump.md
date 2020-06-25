@@ -47,8 +47,7 @@ Useful resources:
    Is useful if you have a non-interactive shell, 
    this way to can capture packets without having to leave with ctrl+c.
 -vvv - Verbose. Depending on how verbose you want the output.
--s The default size that tcpdump captures is only 96 bytes. 
-   If you want it to capture more you have to define it yourself -s0 gives you the whole packet.
+-s tcpdump captures may be truncated. -s0 gives you the whole packet.
 ```
 
 ### Capture Traffic with `tcpdump`
