@@ -59,6 +59,7 @@
   * [5985 \| 5986 - WINRM](enumeraion/ports/5985-or-5986-winrm.md)
   * [U:69 - TFTP](enumeraion/ports/u-69-tftp.md)
 * [Port Redirection / Tunneling](enumeraion/port-redirection-tunneling.md)
+* [Passive Information Gathering](enumeraion/passive-information-gathering.md)
 
 ## Collections
 
