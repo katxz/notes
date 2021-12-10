@@ -72,7 +72,7 @@ nmap -p21,22,80 -sC -sV $TARGET
 
 {% code title="Script scan known vulnerabilities on specified ports." %}
 ```
-nmap -p21,22,80 --script vuln $TARGET
+nmap -p21,22,80 -sC -sV --script vuln $TARGET
 ```
 {% endcode %}
 
