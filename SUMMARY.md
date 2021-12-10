@@ -19,7 +19,8 @@
   * [Bash Scripting](tools/linux-things/bash-scripting.md)
 * [Tools](tools/tools/README.md)
   * [Autorecon](tools/tools/autorecon.md)
-  * [Burp](tools/tools/burp.md)
+  * [Burp](tools/tools/burp/README.md)
+    * [Intruder](tools/tools/burp/intruder.md)
   * [Metasploit](tools/tools/metasploit/README.md)
     * [exploit/multi/handler](tools/tools/metasploit/exploit-multi-handler.md)
     * [admin/oracle/oracle\_login](tools/tools/metasploit/admin-oracle-oracle\_login.md)
@@ -106,8 +107,8 @@
   * [JuicyPotato](privilege-escalation/windows-privilege-escalation/juicypotato.md)
   * [RogueWinRM](privilege-escalation/windows-privilege-escalation/roguewinrm.md)
 * [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
-  * [SUID](privilege-escalation/linux-privilege-escalation/suid/README.md)
-    * [systemctl](privilege-escalation/linux-privilege-escalation/suid/systemctl.md)
+  * [SUID](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/README.md)
+    * [systemctl](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/systemctl.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
 ## Post Exploitation
