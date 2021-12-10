@@ -1,4 +1,4 @@
-# systemctl
+# systemctl (SUID)
 
 {% embed url="https://gtfobins.github.io/gtfobins/systemctl#suid" %}
 
@@ -33,3 +33,8 @@ $ bash -p
 /bin/systemctl enable /dev/shm/root.service
 /bin/systemctl start root
 ```
+
+Additional reading on how to create a Linux service with systemd
+
+* [https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
+* [https://unix.stackexchange.com/questions/404667/systemd-service-what-is-multi-user-target](https://unix.stackexchange.com/questions/404667/systemd-service-what-is-multi-user-target)
