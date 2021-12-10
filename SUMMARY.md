@@ -91,6 +91,10 @@
 * [Buffer Overflow](exploit-development/buffer-overflow.md)
 * [Reversing](exploit-development/reversing.md)
 
+## Reconnaissance
+
+* [Overview](reconnaissance/overview.md)
+
 ## Privilege Escalation
 
 * [Manual Privesc](privilege-escalation/manual-privesc.md)
@@ -102,7 +106,8 @@
   * [JuicyPotato](privilege-escalation/windows-privilege-escalation/juicypotato.md)
   * [RogueWinRM](privilege-escalation/windows-privilege-escalation/roguewinrm.md)
 * [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
-  * [Uncommon SUID Files](privilege-escalation/linux-privilege-escalation/uncommon-suid-files.md)
+  * [SUID](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/README.md)
+    * [systemctl](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/systemctl.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
 ## Post Exploitation

