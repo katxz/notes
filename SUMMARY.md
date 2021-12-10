@@ -70,7 +70,7 @@
 * [Path Traversal](collections/path-traversal.md)
 * [Reverse Shell](collections/reverse-shell/README.md)
   * [Reverse Shell Cheat Sheets](collections/reverse-shell/reverse-shell-cheat-sheets.md)
-  * [Bash (Reverse Shell)](collections/reverse-shell/bash-reverse-shell.md)
+  * [Bash (Reverse Shell)](collections/reverse-shell/bash.md)
   * [Upgrade Shell](collections/reverse-shell/upgrade-shell.md)
   * [Powercat | Powershell](collections/reverse-shell/powershell.md)
   * [PHP](collections/reverse-shell/php.md)
@@ -108,7 +108,7 @@
   * [RogueWinRM](privilege-escalation/windows-privilege-escalation/roguewinrm.md)
 * [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
   * [SUID](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/README.md)
-    * [systemctl](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/systemctl.md)
+    * [systemctl (SUID)](privilege-escalation/linux-privilege-escalation/suid/systemctl-suid.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
 ## Post Exploitation
