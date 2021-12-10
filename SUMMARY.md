@@ -70,7 +70,7 @@
 * [Path Traversal](collections/path-traversal.md)
 * [Reverse Shell](collections/reverse-shell/README.md)
   * [Reverse Shell Cheat Sheets](collections/reverse-shell/reverse-shell-cheat-sheets.md)
-  * [Bash](collections/reverse-shell/bash.md)
+  * [Bash (Reverse Shell)](collections/reverse-shell/bash-reverse-shell.md)
   * [Upgrade Shell](collections/reverse-shell/upgrade-shell.md)
   * [Powercat | Powershell](collections/reverse-shell/powershell.md)
   * [PHP](collections/reverse-shell/php.md)
