@@ -106,8 +106,8 @@
   * [JuicyPotato](privilege-escalation/windows-privilege-escalation/juicypotato.md)
   * [RogueWinRM](privilege-escalation/windows-privilege-escalation/roguewinrm.md)
 * [Linux Privilege Escalation](privilege-escalation/linux-privilege-escalation/README.md)
-  * [SUID](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/README.md)
-    * [systemctl](privilege-escalation/linux-privilege-escalation/uncommon-suid-files/systemctl.md)
+  * [SUID](privilege-escalation/linux-privilege-escalation/suid/README.md)
+    * [systemctl](privilege-escalation/linux-privilege-escalation/suid/systemctl.md)
   * [sudoedit](privilege-escalation/linux-privilege-escalation/sudoedit.md)
 
 ## Post Exploitation

