@@ -2,7 +2,7 @@
 
 ## Frameworks and Tools
 
-### OSINT Framework 
+### OSINT Framework&#x20;
 
 {% embed url="https://osintframework.com/" %}
 
@@ -14,7 +14,7 @@
 
 ### Email Harvesting
 
-```text
+```
 theHarvester -d megacorpone.com -b google
 ```
 
@@ -22,7 +22,7 @@ theHarvester -d megacorpone.com -b google
 
 Examples:
 
-* [https://en.wikipedia.org/wiki/RockYou\#Data\_breach](https://en.wikipedia.org/wiki/RockYou#Data_breach)
+* [https://en.wikipedia.org/wiki/RockYou#Data\_breach](https://en.wikipedia.org/wiki/RockYou#Data\_breach)
 * [https://haveibeenpwned.com/PwnedWebsites](https://haveibeenpwned.com/PwnedWebsites)
 
 ### Social Media Tools
@@ -41,7 +41,7 @@ The site’s value from an information gathering perspective is in looking at th
 
 If the client has a website, we can gather basic information by simply browsing the site.
 
-Find employee information, emails \(and email address format\) and social media accounts, etc.
+Find employee information, emails (and email address format) and social media accounts, etc.
 
 ## Whois
 
@@ -52,10 +52,12 @@ Whois is a TCP service, tool, and a type of database that can provide informatio
 
 ## Google Hacking
 
-{% embed url="https://www.exploit-db.com/google-hacking-database" caption="GHDB" %}
+{% embed url="https://www.exploit-db.com/google-hacking-database" %}
+GHDB
+{% endembed %}
 
 {% code title="Examples" %}
-```text
+```
 filetype:php
 
 site:example.com
@@ -77,7 +79,7 @@ ext:pl
 
 ## Recon-ng
 
-```text
+```
 kali@kali:~$ recon-ng
 [recon-ng][default] > marketplace search github
 
@@ -106,18 +108,18 @@ An “Invalid command” error may indicate that we are at the wrong command lev
 
 ## Github
 
-```text
+```
 user:megacorpone filename:users
 ```
 
 ### Tools: Gitrob and Gitleaks
 
 {% hint style="success" %}
-Tools that search through source code for secrets, like Gitrob or Gitleaks, generally rely on regular expressions or entropy based detections to identify potentially useful information. 
+Tools that search through source code for secrets, like Gitrob or Gitleaks, generally rely on regular expressions or entropy based detections to identify potentially useful information.&#x20;
 
-Regular expressions are a predefined search pattern. They are particularly useful for searching through a body of text for variations of commonly used passwords. 
+Regular expressions are a predefined search pattern. They are particularly useful for searching through a body of text for variations of commonly used passwords.&#x20;
 
-Entropy-based detection, on the other hand, attempts to find strings that are randomly generated. The idea here is that a long string of random characters and numbers is probably a password. 
+Entropy-based detection, on the other hand, attempts to find strings that are randomly generated. The idea here is that a long string of random characters and numbers is probably a password.&#x20;
 
 Regardless of how a tool searches for secrets, no tool is perfect and they will miss things that a manual inspection might find.
 {% endhint %}
@@ -126,7 +128,7 @@ Regardless of how a tool searches for secrets, no tool is perfect and they will 
 
 {% embed url="https://www.shodan.io/" %}
 
-```text
+```
 hostname:megacorpone.com
 ```
 
@@ -141,6 +143,4 @@ hostname:megacorpone.com
 ## Pastebin
 
 {% embed url="https://pastebin.com/" %}
-
-
 
