@@ -104,6 +104,10 @@
 
 * [Overview](reconnaissance/overview.md)
 
+## File Transfer
+
+* [Web](file-transfer/web.md)
+
 ## Privilege Escalation
 
 * [Manual Privesc](privilege-escalation/manual-privesc.md)

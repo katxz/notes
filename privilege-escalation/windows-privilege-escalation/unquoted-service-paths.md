@@ -6,6 +6,12 @@ Check for vulnerable services
 wmic service get name,displayname,pathname,startmode | findstr /i "auto" | findstr /i /v "c:\windows\\" | findstr /i /v """
 ```
 
+Or use Powershell
+
+```
+powershell -c "Get-Service"
+```
+
 If using PowerUp.ps1, make sure `CanRestart` field is `True` for the vulnerable service.
 
 If the service can be restarted, check if we can write to the service path.
