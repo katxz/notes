@@ -33,6 +33,7 @@
   * [odat](tools/tools/odat.md)
   * [Powercat](tools/tools/powercat.md)
   * [psexec.py (Impacket)](tools/tools/psexec.py-impacket.md)
+  * [Searchsploit (EDB)](tools/tools/searchsploit-edb.md)
   * [smbclient](tools/tools/smbclient.md)
   * [Socat](tools/tools/socat.md)
   * [sshuttle](tools/tools/sshuttle.md)
