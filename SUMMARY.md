@@ -23,6 +23,8 @@
     * [Intruder](tools/tools/burp/intruder.md)
     * [Extender](tools/tools/burp/extender.md)
   * [Metasploit](tools/tools/metasploit/README.md)
+    * [Sessions](tools/tools/metasploit/sessions.md)
+    * [Meterpreter](tools/tools/metasploit/meterpreter.md)
     * [exploit/multi/handler](tools/tools/metasploit/exploit-multi-handler.md)
     * [admin/oracle/oracle\_login](tools/tools/metasploit/admin-oracle-oracle\_login.md)
   * [mssqlclient.py (Impacket)](tools/tools/mssqlclient.py-impacket.md)
