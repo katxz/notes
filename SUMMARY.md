@@ -78,6 +78,7 @@
 * [Reverse Shell](collections/reverse-shell/README.md)
   * [Reverse Shell Cheat Sheets](collections/reverse-shell/reverse-shell-cheat-sheets.md)
   * [Bash (Reverse Shell)](collections/reverse-shell/bash.md)
+  * [Background Commands](collections/reverse-shell/background-commands.md)
   * [Upgrade Shell](collections/reverse-shell/upgrade-shell.md)
   * [Powercat | Powershell](collections/reverse-shell/powershell.md)
   * [PHP](collections/reverse-shell/php.md)
@@ -106,7 +107,8 @@
 
 ## File Transfer
 
-* [Web](file-transfer/web.md)
+* [Web (serving)](file-transfer/web-serving.md)
+* [Powershell (downloading)](file-transfer/powershell-downloading.md)
 
 ## Privilege Escalation
 
