@@ -1,0 +1,5 @@
+# smbmap
+
+```
+smbmap -H <ip>
+```
