@@ -13,3 +13,9 @@ description: >-
 $ find / -type f -maxdepth 2 -writable
 $ find / -type d -maxdepth 2 -writable
 ```
+
+## Windows
+
+```
+> systeminfo
+```

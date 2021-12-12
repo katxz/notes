@@ -2,7 +2,9 @@
 
 ## Connect to MSSQL from Kali
 
-{% page-ref page="../../tools/tools/mssqlclient.py-impacket.md" %}
+{% content-ref url="../../tools/tools/mssqlclient.py-impacket.md" %}
+[mssqlclient.py-impacket.md](../../tools/tools/mssqlclient.py-impacket.md)
+{% endcontent-ref %}
 
 ## MSSQL for PrivEsc
 
@@ -22,20 +24,21 @@ xp_cmdshell "whoami"
 ```
 
 {% hint style="info" %}
-Compare the following syntax \(note the `;)`
+Compare the following syntax (note the `;)`
 
 * `EXEC xp_cmdshell "whoami";`
 * `xp_cmdshell "whoami"`
 {% endhint %}
 
-{% page-ref page="../../collections/reverse-shell/powershell.md" %}
+{% content-ref url="../../collections/reverse-shell/powershell-1.md" %}
+[powershell-1.md](../../collections/reverse-shell/powershell-1.md)
+{% endcontent-ref %}
 
 ## MSSQL System Databases
 
 Documentation: [https://docs.microsoft.com/en-us/sql/relational-databases/databases/system-databases?view=sqlallproducts-allversions](https://docs.microsoft.com/en-us/sql/relational-databases/databases/system-databases?view=sqlallproducts-allversions)
 
-To restore backups \(.bak\) or read database files \(.mdf and .ldf\) offline: 
+To restore backups (.bak) or read database files (.mdf and .ldf) offline:&#x20;
 
 * [https://blog.xpnsec.com/extracting-master-mdf-hashes/](https://blog.xpnsec.com/extracting-master-mdf-hashes/)
 * [https://rastating.github.io/from-lfi-to-sql-database-backup/](https://rastating.github.io/from-lfi-to-sql-database-backup/)
-
