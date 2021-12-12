@@ -30,8 +30,8 @@ Compare the following syntax (note the `;)`
 * `xp_cmdshell "whoami"`
 {% endhint %}
 
-{% content-ref url="../../collections/reverse-shell/powershell-1.md" %}
-[powershell-1.md](../../collections/reverse-shell/powershell-1.md)
+{% content-ref url="../../collections/reverse-shell/powershell.md" %}
+[powershell.md](../../collections/reverse-shell/powershell.md)
 {% endcontent-ref %}
 
 ## MSSQL System Databases

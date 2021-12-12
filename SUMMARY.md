@@ -76,12 +76,12 @@
 * [File Transfer](collections/file-transfer.md)
 * [Path Traversal](collections/path-traversal.md)
 * [Reverse Shell](collections/reverse-shell/README.md)
-  * [Powershell](collections/reverse-shell/powershell.md)
+  * [Powershell](<collections/reverse-shell/powershell (1).md>)
   * [Reverse Shell Cheat Sheets](collections/reverse-shell/reverse-shell-cheat-sheets.md)
   * [Bash (Reverse Shell)](collections/reverse-shell/bash.md)
   * [Background Commands](collections/reverse-shell/background-commands.md)
   * [Upgrade Shell](collections/reverse-shell/upgrade-shell.md)
-  * [Powercat | Powershell](collections/reverse-shell/powershell-1.md)
+  * [Powercat | Powershell](collections/reverse-shell/powershell.md)
   * [PHP](collections/reverse-shell/php.md)
   * [IIS / ASP](collections/reverse-shell/iis-asp.md)
   * [Perl / CGI](collections/reverse-shell/perl-cgi.md)
@@ -109,7 +109,7 @@
 ## File Transfer
 
 * [Web (serving)](file-transfer/web-serving.md)
-* [Windows (downloading)](file-transfer/windows-downloading.md)
+* [Windows (downloading)](file-transfer/powershell-downloading.md)
 
 ## Privilege Escalation
 
@@ -137,3 +137,7 @@
   * [SAM / SYSTEM / SECURITY](post-exploitation/looting/sam-system-security.md)
   * [passwd / shadow](post-exploitation/looting/passwd-shadow.md)
   * [Password Cracking](post-exploitation/looting/password-cracking.md)
+
+## Knowledge Base
+
+* [Jenkins](knowledge-base/jenkins.md)

@@ -29,8 +29,8 @@ Also see:
 
 See the following:
 
-{% content-ref url="../../collections/reverse-shell/powershell-1.md" %}
-[powershell-1.md](../../collections/reverse-shell/powershell-1.md)
+{% content-ref url="../../collections/reverse-shell/powershell.md" %}
+[powershell.md](../../collections/reverse-shell/powershell.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../collections/bind-shell/powershell.md" %}
