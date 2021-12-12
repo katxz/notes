@@ -43,6 +43,7 @@
   * [sshuttle](tools/tools/sshuttle.md)
   * [ufw](tools/tools/ufw.md)
   * [Wireshark | tcpdump](tools/tools/wireshark-or-tcpdump.md)
+  * [nishang](tools/tools/nishang.md)
 
 ## Enumeration <a href="#enumeraion" id="enumeraion"></a>
 
@@ -119,6 +120,7 @@
   * [Scripts](privilege-escalation/windows-privilege-escalation/scripts/README.md)
     * [winPEAS](privilege-escalation/windows-privilege-escalation/scripts/winpeas.md)
     * [accesschk.exe](privilege-escalation/windows-privilege-escalation/scripts/accesschk.exe.md)
+    * [PowerUp.ps1](privilege-escalation/windows-privilege-escalation/scripts/powerup.ps1.md)
   * [Token Manipulation](privilege-escalation/windows-privilege-escalation/token-manipulation.md)
   * [Unquoted Service Paths](privilege-escalation/windows-privilege-escalation/unquoted-service-paths.md)
   * [JuicyPotato](privilege-escalation/windows-privilege-escalation/juicypotato.md)

